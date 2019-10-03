@@ -1,3 +1,5 @@
+console.log('Loaded');
+
 function formatMsg(msg) {
   const split = msg.split('期限');
   const date = split[1].split(')');
